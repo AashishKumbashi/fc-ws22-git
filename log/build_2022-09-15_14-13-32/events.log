@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000105] (-) JobUnselected: {'identifier': 'python_pubsub'}
+[0.000127] (fc_custom_interface) JobQueued: {'identifier': 'fc_custom_interface', 'dependencies': OrderedDict()}
+[0.000142] (fc_custom_interface) JobStarted: {'identifier': 'fc_custom_interface'}
+[0.011653] (fc_custom_interface) JobProgress: {'identifier': 'fc_custom_interface', 'progress': 'cmake'}
+[0.011995] (fc_custom_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/aashish/Documents/FC/Python-tutorial/OOPS/src/fc_custom_interface', '-DCMAKE_INSTALL_PREFIX=/home/aashish/Documents/FC/Python-tutorial/OOPS/src/install/fc_custom_interface'], 'cwd': '/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aashish'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2007'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/107/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/aashish'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/aashish/Documents/FC/Python-tutorial/OOPS/src/fc_custom_interface'), ('TERM_PROGRAM_VERSION', '1.71.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/107/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/107/usr/share/code/code'), ('MANAGERPID', '1784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5280'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'aashish'), ('JOURNAL_STREAM', '8:56364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aashish'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/home/aashish/.local/bin:/home/aashish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kumbashi:@/tmp/.ICE-unix/2045,unix/kumbashi:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', 'e6254a467c6b4c1c9063b836a35e60f3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d804fc35af.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/107/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.094176] (fc_custom_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099355] (-) TimerEvent: {}
+[0.156465] (fc_custom_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.163190] (fc_custom_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199453] (-) TimerEvent: {}
+[0.223032] (fc_custom_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.224405] (fc_custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.283822] (fc_custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299561] (-) TimerEvent: {}
+[0.300178] (fc_custom_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.301223] (fc_custom_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.305693] (fc_custom_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.396448] (fc_custom_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.398200] (fc_custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399697] (-) TimerEvent: {}
+[0.494472] (fc_custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499930] (-) TimerEvent: {}
+[0.511364] (fc_custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.511968] (fc_custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.516584] (fc_custom_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.600100] (-) TimerEvent: {}
+[0.700617] (-) TimerEvent: {}
+[0.708603] (fc_custom_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[0.800867] (-) TimerEvent: {}
+[0.810414] (fc_custom_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[0.817298] (fc_custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.827419] (fc_custom_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.891611] (fc_custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901103] (-) TimerEvent: {}
+[1.001476] (-) TimerEvent: {}
+[1.089714] (fc_custom_interface) StderrLine: {'line': b'CMake Error at /opt/ros/rolling/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.089915] (fc_custom_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3.8 -m rosidl_adapter --package-name\n'}
+[1.089992] (fc_custom_interface) StderrLine: {'line': b'  fc_custom_interface --arguments-file\n'}
+[1.090061] (fc_custom_interface) StderrLine: {'line': b'  /home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_adapter__arguments__fc_custom_interface.json\n'}
+[1.090128] (fc_custom_interface) StderrLine: {'line': b'  --output-dir\n'}
+[1.090193] (fc_custom_interface) StderrLine: {'line': b'  /home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_adapter/fc_custom_interface\n'}
+[1.090258] (fc_custom_interface) StderrLine: {'line': b'  --output-file\n'}
+[1.090321] (fc_custom_interface) StderrLine: {'line': b'  /home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_adapter/fc_custom_interface.idls)\n'}
+[1.090384] (fc_custom_interface) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.090447] (fc_custom_interface) StderrLine: {'line': b'\n'}
+[1.090518] (fc_custom_interface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.090600] (fc_custom_interface) StderrLine: {'line': b'\n'}
+[1.090676] (fc_custom_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.090746] (fc_custom_interface) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.090821] (fc_custom_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.090892] (fc_custom_interface) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.090959] (fc_custom_interface) StderrLine: {'line': b'    File "/opt/ros/rolling/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.091032] (fc_custom_interface) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.091100] (fc_custom_interface) StderrLine: {'line': b'    File "/opt/ros/rolling/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.091171] (fc_custom_interface) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.091386] (fc_custom_interface) StderrLine: {'line': b'    File "/opt/ros/rolling/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.091482] (fc_custom_interface) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.091560] (fc_custom_interface) StderrLine: {'line': b'    File "/opt/ros/rolling/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.091635] (fc_custom_interface) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.091707] (fc_custom_interface) StderrLine: {'line': b'    File "/opt/ros/rolling/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[1.091779] (fc_custom_interface) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.091851] (fc_custom_interface) StderrLine: {'line': b'    File "/opt/ros/rolling/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[1.091922] (fc_custom_interface) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.091993] (fc_custom_interface) StderrLine: {'line': b'    File "/opt/ros/rolling/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[1.092061] (fc_custom_interface) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.092129] (fc_custom_interface) StderrLine: {'line': b'\n'}
+[1.092205] (fc_custom_interface) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'custom_message' is an invalid\n"}
+[1.092274] (fc_custom_interface) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.092343] (fc_custom_interface) StderrLine: {'line': b'\n'}
+[1.092411] (fc_custom_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.092483] (fc_custom_interface) StderrLine: {'line': b'  /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.092552] (fc_custom_interface) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[1.092620] (fc_custom_interface) StderrLine: {'line': b'\n'}
+[1.092687] (fc_custom_interface) StderrLine: {'line': b'\n'}
+[1.092755] (fc_custom_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.092830] (fc_custom_interface) StdoutLine: {'line': b'See also "/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/CMakeFiles/CMakeOutput.log".\n'}
+[1.095393] (fc_custom_interface) CommandEnded: {'returncode': 1}
+[1.101755] (-) TimerEvent: {}
+[1.122820] (fc_custom_interface) JobEnded: {'identifier': 'fc_custom_interface', 'rc': 1}
+[1.133368] (-) EventReactorShutdown: {}

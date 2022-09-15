@@ -1,0 +1,32 @@
+In file included from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_c/fc_custom_interface/msg/detail/custom_message__functions.h:19[m[K,
+                 from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_c/fc_custom_interface/msg/detail/custom_message__functions.c:4[m[K:
+[01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_c/fc_custom_interface/msg/detail/custom_message__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kfc_custom_interface/msg/detail/string__struct.h: No such file or directory
+   22 | #include [01;31m[K"fc_custom_interface/msg/detail/string__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/fc_custom_interface__rosidl_generator_c.dir/build.make:92: CMakeFiles/fc_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/fc_custom_interface/msg/detail/custom_message__functions.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:322: CMakeFiles/fc_custom_interface__rosidl_generator_c.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_typesupport_introspection_cpp/fc_custom_interface/msg/detail/custom_message__type_support.cpp:12[m[K:
+[01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_cpp/fc_custom_interface/msg/detail/custom_message__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kfc_custom_interface/msg/detail/string__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"fc_custom_interface/msg/detail/string__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_typesupport_cpp/fc_custom_interface/msg/custom_message__type_support.cpp:7[m[K:
+[01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_cpp/fc_custom_interface/msg/detail/custom_message__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kfc_custom_interface/msg/detail/string__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"fc_custom_interface/msg/detail/string__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/fc_custom_interface__rosidl_typesupport_introspection_cpp.dir/build.make:78: CMakeFiles/fc_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fc_custom_interface/msg/detail/custom_message__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:466: CMakeFiles/fc_custom_interface__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/fc_custom_interface__rosidl_typesupport_cpp.dir/build.make:73: CMakeFiles/fc_custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fc_custom_interface/msg/custom_message__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:439: CMakeFiles/fc_custom_interface__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_typesupport_fastrtps_cpp/fc_custom_interface/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_typesupport_fastrtps_cpp/fc_custom_interface/msg/detail/dds_fastrtps/custom_message__type_support.cpp:4[m[K:
+[01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_cpp/fc_custom_interface/msg/detail/custom_message__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kfc_custom_interface/msg/detail/string__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"fc_custom_interface/msg/detail/string__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/fc_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/fc_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fc_custom_interface/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:268: CMakeFiles/fc_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

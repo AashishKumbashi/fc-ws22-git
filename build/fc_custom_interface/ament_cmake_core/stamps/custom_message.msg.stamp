@@ -1,0 +1,4 @@
+int32 int_a
+String str_b
+bool bool_c
+string[] str_d

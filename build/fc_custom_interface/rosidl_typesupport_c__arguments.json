@@ -1,0 +1,17 @@
+{
+  "package_name": "fc_custom_interface",
+  "output_dir": "/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_typesupport_c/fc_custom_interface",
+  "template_dir": "/opt/ros/rolling/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_adapter/fc_custom_interface:msg/CustomMessage.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/rolling/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/rolling/lib/python3.8/site-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/rolling/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_adapter/fc_custom_interface/msg/CustomMessage.idl"
+  ]
+}

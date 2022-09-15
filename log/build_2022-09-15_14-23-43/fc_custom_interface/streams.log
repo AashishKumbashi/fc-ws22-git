@@ -1,0 +1,47 @@
+[0.013s] Invoking command in '/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface -- -j12 -l12
+[0.065s] [  6%] [32mBuilding C object CMakeFiles/fc_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/fc_custom_interface/msg/detail/custom_message__functions.c.o[0m
+[0.066s] [  6%] Built target fc_custom_interface__cpp
+[0.081s] [  6%] Built target ament_cmake_python_copy_fc_custom_interface
+[0.083s] In file included from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_c/fc_custom_interface/msg/detail/custom_message__functions.h:19[m[K,
+[0.083s]                  from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_c/fc_custom_interface/msg/detail/custom_message__functions.c:4[m[K:
+[0.083s] [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_c/fc_custom_interface/msg/detail/custom_message__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kfc_custom_interface/msg/detail/string__struct.h: No such file or directory
+[0.083s]    22 | #include [01;31m[K"fc_custom_interface/msg/detail/string__struct.h"[m[K
+[0.083s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.083s] compilation terminated.
+[0.084s] make[2]: *** [CMakeFiles/fc_custom_interface__rosidl_generator_c.dir/build.make:92: CMakeFiles/fc_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/fc_custom_interface/msg/detail/custom_message__functions.c.o] Error 1
+[0.084s] make[1]: *** [CMakeFiles/Makefile2:322: CMakeFiles/fc_custom_interface__rosidl_generator_c.dir/all] Error 2
+[0.084s] make[1]: *** Waiting for unfinished jobs....
+[0.092s] [  9%] [32mBuilding CXX object CMakeFiles/fc_custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fc_custom_interface/msg/custom_message__type_support.cpp.o[0m
+[0.094s] [ 16%] [32mBuilding CXX object CMakeFiles/fc_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fc_custom_interface/msg/detail/custom_message__type_support.cpp.o[0m
+[0.094s] [ 16%] [32mBuilding CXX object CMakeFiles/fc_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fc_custom_interface/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o[0m
+[0.147s] In file included from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_typesupport_cpp/fc_custom_interface/msg/custom_message__type_support.cpp:7[m[K:
+[0.147s] [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_cpp/fc_custom_interface/msg/detail/custom_message__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kfc_custom_interface/msg/detail/string__struct.hpp: No such file or directory
+[0.147s]    20 | #include [01;31m[K"fc_custom_interface/msg/detail/string__struct.hpp"[m[K
+[0.147s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.147s] compilation terminated.
+[0.148s] make[2]: *** [CMakeFiles/fc_custom_interface__rosidl_typesupport_cpp.dir/build.make:73: CMakeFiles/fc_custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fc_custom_interface/msg/custom_message__type_support.cpp.o] Error 1
+[0.148s] make[1]: *** [CMakeFiles/Makefile2:439: CMakeFiles/fc_custom_interface__rosidl_typesupport_cpp.dir/all] Error 2
+[0.153s] In file included from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_typesupport_introspection_cpp/fc_custom_interface/msg/detail/custom_message__type_support.cpp:12[m[K:
+[0.154s] [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_cpp/fc_custom_interface/msg/detail/custom_message__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kfc_custom_interface/msg/detail/string__struct.hpp: No such file or directory
+[0.154s]    20 | #include [01;31m[K"fc_custom_interface/msg/detail/string__struct.hpp"[m[K
+[0.154s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.154s] compilation terminated.
+[0.155s] make[2]: *** [CMakeFiles/fc_custom_interface__rosidl_typesupport_introspection_cpp.dir/build.make:78: CMakeFiles/fc_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fc_custom_interface/msg/detail/custom_message__type_support.cpp.o] Error 1
+[0.155s] make[1]: *** [CMakeFiles/Makefile2:466: CMakeFiles/fc_custom_interface__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[0.160s] In file included from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_typesupport_fastrtps_cpp/fc_custom_interface/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.161s]                  from [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_typesupport_fastrtps_cpp/fc_custom_interface/msg/detail/dds_fastrtps/custom_message__type_support.cpp:4[m[K:
+[0.161s] [01m[K/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface/rosidl_generator_cpp/fc_custom_interface/msg/detail/custom_message__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kfc_custom_interface/msg/detail/string__struct.hpp: No such file or directory
+[0.161s]    20 | #include [01;31m[K"fc_custom_interface/msg/detail/string__struct.hpp"[m[K
+[0.161s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.161s] compilation terminated.
+[0.162s] make[2]: *** [CMakeFiles/fc_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/fc_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fc_custom_interface/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o] Error 1
+[0.163s] make[1]: *** [CMakeFiles/Makefile2:268: CMakeFiles/fc_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.324s] running egg_info
+[0.325s] writing fc_custom_interface.egg-info/PKG-INFO
+[0.325s] writing dependency_links to fc_custom_interface.egg-info/dependency_links.txt
+[0.325s] writing top-level names to fc_custom_interface.egg-info/top_level.txt
+[0.347s] reading manifest file 'fc_custom_interface.egg-info/SOURCES.txt'
+[0.347s] writing manifest file 'fc_custom_interface.egg-info/SOURCES.txt'
+[0.364s] [ 16%] Built target ament_cmake_python_build_fc_custom_interface_egg
+[0.365s] make: *** [Makefile:141: all] Error 2
+[0.367s] Invoked command in '/home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aashish/Documents/FC/Python-tutorial/OOPS/src/build/fc_custom_interface -- -j12 -l12
