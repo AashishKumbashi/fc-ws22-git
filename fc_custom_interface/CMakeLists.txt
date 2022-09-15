@@ -14,6 +14,7 @@ find_package(rosidl_default_generators REQUIRED)
 #enable the other paclages to find this package while building
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CustomMessage.msg"
+  "action/MoveRobot.action"
 )
 
 if(BUILD_TESTING)
