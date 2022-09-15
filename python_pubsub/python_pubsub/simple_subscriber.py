@@ -5,15 +5,16 @@ import rclpy
 from rclpy.node import Node
 #Importing standard ROS message
 from std_msgs.msg import String
+from fc_custom_interface.msg import CustomMessage
 
 class SimpleSubscriber(Node):
     def __init__(self):
         super().__init__("SimpleSubscriber")
-        self.sub = self.create_subscription(String,'/physics',self.sub_callback,10)
+        self.sub = self.create_subscription(CustomMessage,'/physics',self.sub_callback,10)
     
     def sub_callback(self, msg):
         #use ROS logger to print the response
-        self.get_logger().info(f'No Astra can save us because I heard {msg.data}')
+        self.get_logger().info(f'No Astra can save us because I heard {msg.str_d} are alive. My name is {msg.str_b}. Do you know: {msg.int_a} {msg.bool_c}')
 
 def main(args=None):
     rclpy.init(args=args)
